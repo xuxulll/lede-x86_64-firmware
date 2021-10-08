@@ -13,6 +13,11 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 
+# Clone extra packages
+git clone --recursive https://github.com/vernesong/OpenClash package/openclash
+git clone --recursive https://github.com/kenzok8/openwrt-packages package/kenzok
+git clone --recursive https://github.com/kenzok8/small package/small
+
 # Remove built-in duplicated packages
 rm -rf package/lean/aliyundrive-webdav
 rm -rf package/lean/luci-app-aliyundrive-webdav

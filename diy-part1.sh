@@ -14,6 +14,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
-echo 'src-git kenzok https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
+#echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
+#echo 'src-git kenzok https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
