@@ -11,4 +11,17 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
+
+# Remove built-in duplicated packages
+rm -rf package/lean/aliyundrive-webdav
+rm -rf package/lean/luci-app-aliyundrive-webdav
+rm -rf package/lean/luci-app-jd-dailybonus
+rm -rf package/lean/luci-app-pushbot
+rm -rf package/lean/microsocks
+rm -rf package/lean/redsocks2
+rm -rf package/lean/dns2socks
+rm -rf package/lean/ipt2socks
+rm -rf package/lean/pdnsd-alt
+rm -rf package/lean/simple-obfs
+rm -rf package/lean/trojan
