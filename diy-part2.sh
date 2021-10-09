@@ -18,6 +18,10 @@ sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_genera
 git clone --recursive https://github.com/kenzok8/openwrt-packages package/kenzok
 git clone --recursive https://github.com/kenzok8/small package/small
 
+# Replace default Argon Theme
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
 # Remove built-in duplicated packages
 rm -rf package/lean/aliyundrive-webdav
 rm -rf package/lean/luci-app-aliyundrive-webdav
