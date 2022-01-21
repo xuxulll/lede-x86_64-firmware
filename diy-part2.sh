@@ -24,14 +24,14 @@ rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 # Remove built-in duplicated packages
-rm -rf package/lean/aliyundrive-webdav
-rm -rf package/lean/luci-app-aliyundrive-webdav
-rm -rf package/lean/luci-app-jd-dailybonus
-rm -rf package/lean/luci-app-pushbot
-rm -rf package/lean/microsocks
-rm -rf package/lean/redsocks2
-rm -rf package/lean/dns2socks
-rm -rf package/lean/ipt2socks
-rm -rf package/lean/pdnsd-alt
-rm -rf package/lean/simple-obfs
-rm -rf package/lean/trojan
+#rm -rf package/lean/aliyundrive-webdav
+#rm -rf package/lean/luci-app-aliyundrive-webdav
+#rm -rf package/lean/luci-app-jd-dailybonus
+#rm -rf package/lean/luci-app-pushbot
+#rm -rf package/lean/microsocks
+#rm -rf package/lean/redsocks2
+#rm -rf package/lean/dns2socks
+#rm -rf package/lean/ipt2socks
+#rm -rf package/lean/pdnsd-alt
+#rm -rf package/lean/simple-obfs
+#rm -rf package/lean/trojan
