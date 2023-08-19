@@ -27,6 +27,8 @@ git clone --recursive https://github.com/destan19/OpenAppFilter.git package/Open
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
+git clone --recursive https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+
 # Remove built-in duplicated packages
 #rm -rf package/lean/aliyundrive-webdav
 #rm -rf package/lean/luci-app-aliyundrive-webdav
